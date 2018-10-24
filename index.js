@@ -40,6 +40,7 @@ class Hangman {
     }
     getLife(){
         //retourne le nombre de vie
+        return this.life;
     }
 }
 const hangman = new Hangman();
