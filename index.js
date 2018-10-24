@@ -55,7 +55,7 @@ function displayGame(){
     lf.innerHTML="Vies: "+hangman.getLife();
 }
 function checkletterbt(){
-    let inp = document.getElementById("input").value;
+    let inp = document.getElementById("input").value.toLowerCase();
     if(hangman.checkLetter(inp)){
         displayGame();
     }else{
