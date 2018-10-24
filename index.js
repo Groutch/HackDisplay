@@ -32,14 +32,13 @@ class Hangman {
     }
 	substract(){
         //décrémenter la vie
-
+        return this.life--;
     }
     getAnswer(){
         //retourne le mot (pour affichage lorsque c'est perdu) 
     }
     getLife(){
         //retourne le nombre de vie
-
     }
 }
 const hangman = new Hangman();
