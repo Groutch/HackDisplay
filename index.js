@@ -36,9 +36,11 @@ class Hangman {
     }
     getAnswer(){
         //retourne le mot (pour affichage lorsque c'est perdu) 
+        return this.word;
     }
     getLife(){
         //retourne le nombre de vie
+        return this.life;
     }
 }
 const hangman = new Hangman();
